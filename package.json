@@ -1,15 +1,25 @@
 {
   "name": "pi-quick-question",
-  "version": "0.1.0",
-  "description": "Type `?? <question>` in pi to get the shortest possible answer via the bundled q skill.",
+  "version": "0.2.0",
+  "description": "Put `??` anywhere in a pi message to get the shortest possible answer via the bundled q skill.",
   "license": "MIT",
-  "keywords": ["pi-package"],
-  "repository": { "type": "git", "url": "git+https://github.com/javrasya/pi-quick-question.git" },
+  "keywords": [
+    "pi-package"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javrasya/pi-quick-question.git"
+  },
   "pi": {
-    "extensions": ["./extensions/quick-question.ts"],
-    "skills": ["./skills"]
+    "extensions": [
+      "./extensions/quick-question.ts"
+    ],
+    "skills": [
+      "./skills"
+    ]
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*"
-  }
+  },
+  "type": "module"
 }
