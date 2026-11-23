@@ -1,0 +1,5 @@
+{
+  "name": "javrasya-quick-question",
+  "owner": { "name": "Ahmet Dal" },
+  "plugins": [{ "name": "quick-question", "source": "./" }]
+}

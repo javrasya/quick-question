@@ -1,14 +1,14 @@
 {
-  "name": "pi-quick-question",
-  "version": "0.2.0",
-  "description": "Put `??` anywhere in a pi message to get the shortest possible answer via the bundled q skill.",
+  "name": "quick-question",
+  "version": "0.3.0",
+  "description": "Put `??` anywhere in a message to get the shortest possible answer. pi extension + Claude Code plugin.",
   "license": "MIT",
   "keywords": [
     "pi-package"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/javrasya/pi-quick-question.git"
+    "url": "git+https://github.com/javrasya/quick-question.git"
   },
   "pi": {
     "extensions": [

@@ -1,0 +1,16 @@
+{
+  "description": "Answer `??` messages as briefly as possible via the q skill",
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/quick-question.mjs\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
