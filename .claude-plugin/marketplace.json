@@ -1,5 +1,13 @@
 {
   "name": "javrasya-quick-question",
-  "owner": { "name": "Ahmet Dal" },
-  "plugins": [{ "name": "quick-question", "source": "./" }]
+  "description": "Put ?? anywhere in a message for the shortest possible answer.",
+  "owner": {
+    "name": "Ahmet Dal"
+  },
+  "plugins": [
+    {
+      "name": "quick-question",
+      "source": "./"
+    }
+  ]
 }
