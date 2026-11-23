@@ -33,6 +33,16 @@ On Claude Code older than 2.1.275, add the marketplace first:
 /plugin install quick-question@javrasya-quick-question
 ```
 
+**Just the skill**
+
+To install only the `q` skill, without the `??` shortcut, into any agent the [skills CLI](https://github.com/vercel-labs/skills) supports:
+
+```bash
+npx skills add javrasya/quick-question --skill q
+```
+
+Add `-g` to install it for your user instead of the current project. Then ask with `/q <question>` (pi: `/skill:q <question>`).
+
 ## How it works
 
 - **pi**: an `input` extension rewrites the message to `/skill:q <message without ??>` before skill expansion.
