@@ -1,5 +1,9 @@
 # Changelog
 
+## [0.4.0]
+
+- Any `??` anywhere in the message triggers the quick answer, including `foo??bar` and `??` inside code.
+
 ## [0.3.0]
 
 - Claude Code plugin: a `UserPromptSubmit` hook answers `??` messages with the `q` skill.

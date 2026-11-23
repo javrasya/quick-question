@@ -40,9 +40,10 @@ On Claude Code older than 2.1.275, add the marketplace first:
 
 Both use the same matcher in `lib/match.mjs`:
 
-- `??` triggers when it stands alone: at the start, at the end (even glued to a word, `again??`), or between spaces. `a??b` does not, and a bare `??` with no other text passes through unchanged.
-- `??` inside inline code or a fenced code block is ignored, so pasting `x ?? y` doesn't trigger it.
-- Messages that start with `/` (commands) are left alone.
+- Any `??` anywhere in the message triggers it: `?? q`, `q??`, `a ?? b`, `foo??bar`, `what???`. Longer runs like `???` count too.
+- The `??` is removed before the question goes to the `q` skill (pi only; Claude Code sees the message unchanged).
+- Messages that start with `/` (commands) are left alone, and a bare `??` with no other text passes through unchanged.
+- A `??` inside pasted code, such as JavaScript's `x ?? y`, triggers it as well.
 
 ## Notes
 

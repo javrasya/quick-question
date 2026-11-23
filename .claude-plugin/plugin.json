@@ -1,9 +1,15 @@
 {
   "name": "quick-question",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Put `??` anywhere in a message to get the shortest possible answer.",
-  "author": { "name": "Ahmet Dal", "url": "https://github.com/javrasya" },
+  "author": {
+    "name": "Ahmet Dal",
+    "url": "https://github.com/javrasya"
+  },
   "repository": "https://github.com/javrasya/quick-question",
   "license": "MIT",
-  "keywords": ["quick-question", "brevity"]
+  "keywords": [
+    "quick-question",
+    "brevity"
+  ]
 }
